@@ -1,0 +1,41 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('../bg.jpg') center center fixed;
+  background-size: cover;
+}
+
+.panel {
+	position: fixed;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgba(0,0,0,.3);
+}
+
+.panel-inner {
+	/*background: #ffffff;*/
+  color: #fff;
+}
